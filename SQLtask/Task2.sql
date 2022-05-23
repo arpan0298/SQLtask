@@ -14,7 +14,7 @@ group by OrderID;
 
 -- 4th
 SELECT * FROM products 
-limit 4, 11;
+LIMIT 4, 11;
 
 -- 5th
 SELECT * FROM suppliers 
