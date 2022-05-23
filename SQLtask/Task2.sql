@@ -13,8 +13,8 @@ from order_details
 group by OrderID;
 
 -- 4th
-SELECT ProductName FROM products 
-LIMIT 4, 10  ;
+SELECT * FROM products 
+limit 4, 11;
 
 -- 5th
 SELECT * FROM suppliers 
