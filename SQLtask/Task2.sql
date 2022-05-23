@@ -1,6 +1,6 @@
 -- 1st 
-SELECT COUNT( DISTINCT City) FROM customers;
-select distinct city from customers;
+SELECT City, Count(distinct City) from customers
+Group by City;
 
 -- 2nd
 SELECT OrderID,MAX(Quantity), min(Quantity)
